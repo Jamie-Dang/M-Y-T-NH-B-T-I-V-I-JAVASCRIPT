@@ -1,0 +1,52 @@
+:root {
+  --font-weight: bold;
+}
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  margin: auto;
+}
+
+input {
+  border-radius: 20px;
+  font-size: 20px;
+  height: 50px;
+  width: 280px;
+  scroll-behavior: smooth;
+  padding: 0px 10px;
+}
+
+button {
+  border-radius: 20px;
+  font-size: 20px;
+  background: #ffffff;
+  width: 60px;
+  height: 50px;
+  margin: 6px;
+}
+
+.calculator {
+  background-color: #353131;
+  padding: 23px;
+  border-radius: 53px;
+  display: inline-block;
+}
+
+#button_result {
+  background-color: #ff69b4;
+  color: white;
+  font-weight: var(--font-weight);
+}
+
+#button_delete {
+  color: red;
+  font-weight: var(--font-weight);
+}
+
+.button_color {
+  color: #4b0082;
+  font-weight: var(--font-weight);
+}
