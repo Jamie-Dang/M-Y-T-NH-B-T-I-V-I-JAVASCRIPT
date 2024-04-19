@@ -1,28 +1,31 @@
+/* Tạo ra các biến toàn cục cho phép được sử dụng toàn bộ định dạng khác. */
 :root {
   --font-weight: bold;
 }
 .container {
-  text-align: center;
-  margin-top: 20px;
+  text-align: center; /* căn chỉnh văn bản ở giữa */
+  margin-top: 20px; /* đặt một phần khoảng trống là 20px ở phía trên phần tử */
 }
 
 table {
-  margin: auto;
+  margin: auto; /* tự động căn giữa phần tử theo chiều ngang */
 }
 
+/* Định dạng các phần tử được nhập từ bàn phím  */
 input {
-  border-radius: 20px;
+  border-radius: 20px; /* Thiết lập độ cong của góc cho khung */
   font-size: 20px;
   height: 50px;
   width: 280px;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* Thiết lập hiệu ứng cuộn mượt khi cuộn nội dung */
   padding: 0px 10px;
 }
 
+/* Định dạng các phần tử nút */
 button {
   border-radius: 20px;
   font-size: 20px;
-  background: #ffffff;
+  background: #ffffff; /* Đặt màu nền */
   width: 60px;
   height: 50px;
   margin: 6px;
@@ -32,13 +35,14 @@ button {
   background-color: #353131;
   padding: 23px;
   border-radius: 53px;
-  display: inline-block;
+  display: inline-block; /* Dùng để hiển thị phần tử trên cùng một dòng */
 }
 
+/* Định dạng phần tử có id là button_result trong html
 #button_result {
   background-color: #ff69b4;
-  color: white;
-  font-weight: var(--font-weight);
+  color: white; /* Đặt màu chữ  */
+  font-weight: var(--font-weight); /* Trọng lượng của phông chữ cho phần tử */
 }
 
 #button_delete {
@@ -49,4 +53,4 @@ button {
 .button_color {
   color: #4b0082;
   font-weight: var(--font-weight);
-}
+} */
