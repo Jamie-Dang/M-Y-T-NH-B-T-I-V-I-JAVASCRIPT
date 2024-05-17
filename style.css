@@ -38,7 +38,6 @@ button {
   display: inline-block; /* Dùng để hiển thị phần tử trên cùng một dòng */
 }
 
-/* Định dạng phần tử có id là button_result trong html
 #button_result {
   background-color: #ff69b4;
   color: white; /* Đặt màu chữ  */
@@ -53,4 +52,4 @@ button {
 .button_color {
   color: #4b0082;
   font-weight: var(--font-weight);
-} */
+}

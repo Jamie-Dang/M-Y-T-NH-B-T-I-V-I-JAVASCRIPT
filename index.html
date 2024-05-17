@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Calculator</title>
     <!-- Tiêu đề của trang web, hiển thị trên thanh tiêu đề của trình duyệt. -->
-    <link rel="stylesheet" href="./style.css" />
+    <title>Calculator</title>
     <!-- Nhúng tệp CSS style.css với html để tạo kiểu cho các phần tử trên trang web. -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="container">
       <h1>Simple Calculator</h1>
       <div class="calculator">
-        <input type="text" name="screen" id="display" />
         <!-- Ô hiển thị, nơi kết quả của phép tính được hiển thị -->
+        <input type="text" name="screen" id="display" />
+        <!-- Bảng chứa các nút số và các phép toán của máy tính -->
         <table>
-          <!-- Bảng chứa các nút số và các phép toán của máy tính -->
+          <tr>
+            <td><button id="button_delete">C</button></td>
+            <td><button class="button_color">(</button></td>
+            <td><button class="button_color">)</button></td>
+            <td><button class="button_color">+</button></td>
+          </tr>
           <tr>
             <td><button>9</button></td>
             <td><button>8</button></td>
             <td><button>7</button></td>
-            <td><button>+</button></td>
+            <td><button class="button_color">-</button></td>
           </tr>
           <tr>
             <td><button>6</button></td>
             <td><button>5</button></td>
             <td><button>4</button></td>
-            <td><button>-</button></td>
+            <td><button class="button_color">x</button></td>
           </tr>
           <tr>
             <td><button>3</button></td>
             <td><button>2</button></td>
             <td><button>1</button></td>
-            <td><button>x</button></td>
+            <td><button class="button_color">/</button></td>
           </tr>
           <tr>
             <td><button>0</button></td>
-            <td><button>C</button></td>
-            <td><button>=</button></td>
-            <td><button>/</button></td>
+            <td><button>.</button></td>
+            <td><button>%</button></td>
+            <td><button id="button_result">=</button></td>
           </tr>
         </table>
       </div>
     </div>
-    <script src="./script.js"></script>
     <!-- Nhúng tệp Javascript script.js với html để xử lý các sự kiện và tính toán trong máy tính. -->
+    <script src="./script.js"></script>
   </body>
 </html>
